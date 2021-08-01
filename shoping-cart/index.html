@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <h4> Nawel Elect</h4>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus" onclick="open_window();"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Products-->
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/dell-i5.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i> 
+                    add to bag</button>
+                    <!-- <img class="like-btn" src="./images/like.png"></img> -->
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>pc Dell i5</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/hp-i5.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>PC hp i5</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/hp-i7.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>pc hp i7</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/MSI.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>pc gamer MSI</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/casque-apple.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>Casque Apple</h3>
+                <h4>$20</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/casque-hp.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>Casque hp</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/asus-MemoPad-8.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>Tablette Asus Memo Tab 8</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            <!--single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/SamSung-GalaxyTab.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>Samsung Galaxy Tab S6 Lite</h3>
+                <h4>$16</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/huawei-nova-i7.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>SmartPhone huawei nova 7i</h3>
+                <h4>$16</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/huawei-p30-lite.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>SmartPhone huawei P30 Lite</h3>
+                <h4>$16</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/samsung-A30.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>SmartPhone Samsung A30</h3>
+                <h4>$16</h4>
+            </article>
+
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/samsung-m51.jpg" alt="product" 
+                    class="product-img">
+                    <button class="bag-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    add to bag</button>
+                    <span class="like-btn"><i class="fas fa-heart"></i></span>
+                </div>
+                <h3>SmartPhone Samsung M51</h3>
+                <h4>$16</h4>
+            </article>
+            <!--end of product-->
+            
+        </div>
+    </section>
+    <!--end of products-->
+    
+    <!--Cart-->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close" onclick="windowClose();"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="My_items">
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/dell-i5.jpg" alt="product">
+                        
+                        <div class="prod-caract">
+                            <h4>PC Dell i5</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+    
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/hp-i5.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>PC hp i5</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/hp-i7.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>PC hp i7</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                            
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                        
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/MSI.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>PC gamer msi</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/casque-apple.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>Casque Apple</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/casque-hp.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>Casque hp</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/asus-MemoPad-8.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>Tablette Asus Memo Tab 8</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/SamSung-GalaxyTab.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>Samsung Galaxy Tab S6 Lite</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+    
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/huawei-nova-i7.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>SmartPhone Huawei Nova 7i</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+    
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/huawei-p30-lite.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>SmartPhone Huawei P30 Lite</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+    
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/samsung-A30.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>SmartPhone Samsung A30</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+    
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <input type="checkbox" class="check">
+                        <img src="./images/samsung-m51.jpg" alt="product">
+                        <div class="prod-caract">
+                            <h4>SmartPhone Samsung M51</h4>
+                            <h5 class="unitprice">16</h5>
+                            <button class="remove-item"><i class="fas fa-trash-alt"></i></button>
+                        </div>
+                        <div id="mainDiv">
+                            <button class="minus">-</button>
+                            <span id="numberPlace">0</span>
+                            <button class="plus">+</button>
+                        </div>
+                        <p>Price : $ <span class="Price">0</span></p>
+                    </div>
+                    <!--end of cart item-->
+                </div>
+    
+            </div>
+           
+            <div class="cart-footer">
+                <h3>your total : $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn" onclick="Clear_cart();">clear cart</button>
+            </div>
+        </div>
+    </div>
+    <!--end of cart-->
+    <script src="./src/js/main.js"></script>
+
+</body>
+</html>
